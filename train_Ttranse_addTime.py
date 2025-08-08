@@ -17,9 +17,7 @@ from trans.data.PyTorchTestDataLoader_AddTime_tp2id import PyTorchTestDataLoader
 from trans.data.PyTorchTestDataLoader_AddTime_tp2id_tp_point import PyTorchTestDataLoader as PyTorchTestDataLoader_quintuple
 
 import os 
-'''
-往关系空间映射 在测试时，都只关心起始时间，想要测试所有时间上的平均得分的方法去对应的测试方法中测试模型
-'''
+
 
 parser = argparse.ArgumentParser(description='Ttrane')
 
