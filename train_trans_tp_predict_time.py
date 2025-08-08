@@ -1,7 +1,4 @@
-'''
-预测时间，训练时，负样本生成应该是时间的负样本，跟头尾实体没关系，因而在进行数据加载时，实体、关系的负样本生成个数为0,,设置时间的生成样本。
-测试时，调用的测试方法和按年查分 计算实体在时间上平均值的函数一样，里面根据预测任务字段 predict_task=time  调用时间预测的计算方法
-'''
+
 import argparse
 from utils.file_util import ensure_directory_exists
 
