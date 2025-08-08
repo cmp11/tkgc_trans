@@ -2,8 +2,6 @@
 Author: cmp
 Date: 2024-05-11 11:49:52
 Description: 
-1、修改了数据集的处理方式，之前划分时间段时，多了（max(time),3000）这段，现在去掉了
-
 
 '''
 import time
