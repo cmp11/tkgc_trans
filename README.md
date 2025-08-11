@@ -1,6 +1,6 @@
 # tkgc_trans
 Temporal Knowledge Graph Completion (TKGC)
-## Dataset
+## Datasets
 ### YAGO11k
 ### Wikidata12k
 ### ICEWS14 
