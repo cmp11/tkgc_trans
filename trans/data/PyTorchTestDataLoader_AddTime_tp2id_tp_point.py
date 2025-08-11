@@ -119,7 +119,7 @@ class PyTorchTestDataset(Dataset):
                 
             
                 data_tp['batch_h'] = batch_h.squeeze().flatten()
-                data_tp['batch_t'] = batch_r.squeeze().flatten()
+                data_tp['batch_t'] = batch_t.squeeze().flatten()
                 data_tp['batch_r'] = batch_r.squeeze().flatten()
                 data_tp['batch_tp'] = tmp.squeeze().flatten()
                 
